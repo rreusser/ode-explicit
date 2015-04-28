@@ -1,0 +1,19 @@
+{
+  "name": "runge-kutta",
+  "version": "0.0.0",
+  "description": "Runge-Kutta based ODE Integrators",
+  "main": "runge-kutta.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "runge-kutta",
+    "ode",
+    "integration",
+    "scijs",
+    "differential",
+    "equations"
+  ],
+  "author": "Ricky Reusser",
+  "license": "MIT"
+}
