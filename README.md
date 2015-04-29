@@ -1,5 +1,7 @@
 # ode-explicit
 
+[![Build Status](https://travis-ci.org/rreusser/ode-explicit.svg?branch=master)](https://travis-ci.org/rreusser/ode-explicit)
+
 A simple module for integrating a system of first-order ODEs. 
 
 ## Usage
