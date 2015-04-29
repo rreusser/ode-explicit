@@ -1,10 +1,11 @@
 {
   "name": "runge-kutta",
   "version": "0.0.0",
-  "description": "Runge-Kutta based ODE Integrators",
-  "main": "runge-kutta.js",
+  "description": "No-frills Euler ODE Integrators",
+  "main": "euler.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha",
+    "lint": "jshint **.js"
   },
   "keywords": [
     "runge-kutta",
@@ -15,5 +16,10 @@
     "equations"
   ],
   "author": "Ricky Reusser",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "*",
+    "jshint": "*",
+    "mocha": "*"
+  }
 }
