@@ -1,14 +1,14 @@
 {
-  "name": "runge-kutta",
-  "version": "0.0.0",
-  "description": "No-frills Euler ODE Integrators",
+  "name": "euler",
+  "version": "0.0.1",
+  "description": "No-frills Euler ODE Integrator",
   "main": "euler.js",
   "scripts": {
     "test": "mocha",
     "lint": "jshint **.js"
   },
   "keywords": [
-    "runge-kutta",
+    "euler",
     "ode",
     "integration",
     "scijs",
