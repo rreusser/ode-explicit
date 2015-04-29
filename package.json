@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Explicit RK-based ODE integrators",
   "main": "lib/ode-explicit.js",
-  "scripts": {
-    "test": "mocha",
-    "lint": "jshint lib/**.js"
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rreusser/ode-explicit.git"
   },
   "keywords": [
     "ode",
@@ -15,11 +17,13 @@
     "differential",
     "equations"
   ],
-  "author": "Ricky Reusser",
-  "license": "MIT",
   "devDependencies": {
     "chai": "*",
     "jshint": "*",
     "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint lib/**.js"
   }
 }
