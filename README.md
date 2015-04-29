@@ -1,4 +1,4 @@
-# Runge-Kutta Integrators
+# ode-explicit: Explicit ODE Integrators for Javascript
 
 A simple module for integrating a system of first-order ODEs. 
 
