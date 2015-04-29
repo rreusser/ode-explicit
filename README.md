@@ -38,7 +38,7 @@ and to take multiple timesteps,
 integrator.steps(10);
 ```
 
-The results are accessible in `integrator.y`.
+The results are accessible in the original vector (or also in `integrator.y`).
 
 ## Credits
 (c) 2015 Ricky Reusser. MIT License
