@@ -9,7 +9,7 @@ A simple module for integrating a system of first-order ODEs.
 The integrators take a derivative function, initial conditions, and a hash of options. The integrator itself is just an object; you have to step it yourself. For example, the differential equations for a circle are:
 
 
-![\frac{d}{dt}\left[\begin{array}{c}y\_0\\y\_1\end{array}\right] = \left[\begin{array}{c}-y\_1\\y\_0\end{array}\right]](/docs/images/ode-example.svg)
+![\frac{d}{dt}\left[\begin{array}{c}y\_0\\y\_1\end{array}\right] = \left[\begin{array}{c}-y\_1\\y\_0\end{array}\right]](/docs/images/ode-example.png)
 
 Then to set up the integration with initial conditions `y0 = 1`, `y1 = 0` and timestep `dt = 0.1`,
 
