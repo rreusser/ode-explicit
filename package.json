@@ -1,5 +1,5 @@
 {
-  "name": "euler",
+  "name": "ode-explicit",
   "version": "0.0.1",
   "description": "Explicit RK-based ODE integrators",
   "main": "lib/ode-explicit.js",
@@ -8,8 +8,8 @@
     "lint": "jshint lib/**.js"
   },
   "keywords": [
-    "euler",
     "ode",
+    "runge-kutta",
     "integration",
     "scijs",
     "differential",
