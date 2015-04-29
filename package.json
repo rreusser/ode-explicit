@@ -2,10 +2,10 @@
   "name": "euler",
   "version": "0.0.1",
   "description": "Explicit RK-based ODE integrators",
-  "main": "src/ode-explicit.js",
+  "main": "lib/ode-explicit.js",
   "scripts": {
     "test": "mocha",
-    "lint": "jshint src/**.js"
+    "lint": "jshint lib/**.js"
   },
   "keywords": [
     "euler",

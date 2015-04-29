@@ -1,6 +1,6 @@
 'use strict';
 
-var ode = require('../src/ode-explicit');
+var ode = require('../lib/ode-explicit');
 var assert = require('chai').assert;
 
 
