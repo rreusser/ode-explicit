@@ -1,4 +1,4 @@
-# ode-explicit: Explicit ODE Integrators for Javascript
+# ode-explicit
 
 A simple module for integrating a system of first-order ODEs. 
 
