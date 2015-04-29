@@ -16,7 +16,7 @@ The integrators take a derivative function, initial conditions, and a hash of op
 \  dt
 ```
 
-Then to set up the integration with initial conditions y0 = 1, y1 = 0 and timestep dt = 0.1,
+Then to set up the integration with initial conditions `y0 = 1`, `y1 = 0` and timestep `dt = 0.1`,
 
 ```javsacript
 var ode = require('ode-explicit');
@@ -31,7 +31,7 @@ var y = [1,0];
 var integrator = ode.rk4( deriv, y, {dt: 0.1, t: 0} );
 ```
 
-To take a single timestep,
+The available integrators are `euler`, `rk2`, and `rk4`. Adaptive integration is on the way. To take a single timestep,
 
 ```javascript
 integrator.step();
