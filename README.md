@@ -45,7 +45,5 @@ integrator.steps(10);
 
 The results are accessible in `integrator.y`.
 
-
-
 ## Credits
 (c) 2015 Ricky Reusser. MIT License
