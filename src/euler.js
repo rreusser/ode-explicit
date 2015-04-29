@@ -1,21 +1,6 @@
 'use strict';
 
-function extend() {
-  for(var i=1; i<arguments.length; i++) {
-    for(var key in arguments[i]) {
-      if(arguments[i].hasOwnProperty(key)) {
-        arguments[0][key] = arguments[i][key];
-      }
-    }
-  }
-  return arguments[0];
-}
-
-var odeWorkspace = function( count, n ) {
-  var work = {};
-  for(var i=0; i<n; i++) { work['w'+i] = new Array( n ); }
-  return work;
-};
+var util = require('./util');
 
 var euler = function euler ( f, y, options ) {
 
@@ -33,7 +18,7 @@ var euler = function euler ( f, y, options ) {
   this.dt = options.dt || defaults.dt;
   this.t = options.t || defaults.t;
   
-  extend( this, odeWorkspace(1, this.n) );
+  util.extend( this, util.odeWorkspace(1, this.n) );
 };
 
 euler.prototype.step = function() {

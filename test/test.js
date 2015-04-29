@@ -1,6 +1,6 @@
 'use strict';
 
-var euler = require('../euler');
+var ode = require('../src/ode-explicit');
 var assert = require('chai').assert;
 
 
@@ -26,7 +26,7 @@ describe("Euler integration", function() {
 
     y0 = [1,0];
 
-    i = new euler( f, y0, {method: 'Euler'});
+    i = new ode.euler( f, y0, {method: 'Euler'});
   });
   
   it("takes a single timestep",function() {
@@ -42,7 +42,7 @@ describe("Euler integration", function() {
   });
 
   it("achieves first order accuracy",function() {
-    var factory = function() { return new euler( f, [1,0] ); };
+    var factory = function() { return new ode.euler( f, [1,0] ); };
     assert.closeTo( orderOfAccuracy( factory, 0.5*Math.PI, 10, [0,1] ), 1, 1e-1 );
   });
 

@@ -1,11 +1,11 @@
 {
   "name": "euler",
   "version": "0.0.1",
-  "description": "No-frills Euler ODE Integrator",
-  "main": "euler.js",
+  "description": "Explicit RK-based ODE integrators",
+  "main": "src/ode-explicit.js",
   "scripts": {
     "test": "mocha",
-    "lint": "jshint **.js"
+    "lint": "jshint src/**.js"
   },
   "keywords": [
     "euler",
