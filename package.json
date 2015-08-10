@@ -1,7 +1,7 @@
 {
   "name": "ode-explicit",
   "version": "0.0.1",
-  "description": "Explicit RK-based ODE integrators",
+  "description": "[DEPRECATED] Explicit RK-based ODE integrators",
   "main": "lib/ode-explicit.js",
   "author": "Ricky Reusser",
   "license": "MIT",
@@ -14,8 +14,7 @@
     "runge-kutta",
     "integration",
     "scijs",
-    "differential",
-    "equations"
+    "differential-equations"
   ],
   "devDependencies": {
     "chai": "*",

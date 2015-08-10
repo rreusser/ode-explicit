@@ -1,8 +1,17 @@
-# ode-explicit
+# [DEPRECATED] ode-explicit
 
 [![Build Status](https://travis-ci.org/rreusser/ode-explicit.svg?branch=master)](https://travis-ci.org/rreusser/ode-explicit)
 
 A simple module for integrating a system of first-order ODEs. 
+
+** This package has been deprecated and replaced with scijs modules. For grealy improved integrators, see any of:**
+
+- [scijs/ode-euler](https://github.com/scijs/ode-euler)
+- [scijs/ode-midpoint](https://github.com/scijs/ode-midpoint)
+- [scijs/ode-rk4](https://github.com/scijs/ode-rk4)
+- [scijs/ode45-cash-karp](https://github.com/scijs/ode45-cash-karp)
+- [scijs/integrate-simpson](https://github.com/scijs/integrate-simpson)
+- [scijs/integrate-adaptive-simpson](https://github.com/scijs/integrate-adaptive-simpson)
 
 ## Usage
 
