@@ -1,6 +1,6 @@
 {
   "name": "ode-explicit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "[DEPRECATED] Explicit RK-based ODE integrators",
   "main": "lib/ode-explicit.js",
   "author": "Ricky Reusser",
