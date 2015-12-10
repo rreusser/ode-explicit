@@ -4,7 +4,7 @@
 
 A simple module for integrating a system of first-order ODEs. 
 
-** This package has been deprecated and replaced with scijs modules. For grealy improved integrators, see any of:**
+**This package has been deprecated and replaced with scijs modules. For grealy improved integrators, see any of:**
 
 - [scijs/ode-euler](https://github.com/scijs/ode-euler)
 - [scijs/ode-midpoint](https://github.com/scijs/ode-midpoint)
